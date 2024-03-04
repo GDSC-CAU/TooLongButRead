@@ -1,8 +1,11 @@
 name: Push To Discord Channel on Pull Request Closed
 
 on:
+  workflow_dispatch:
   pull_request:
     types: [synchronize]
+    branches:
+      - main
 
 jobs:
   push-to-discord:
