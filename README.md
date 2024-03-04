@@ -20,6 +20,7 @@ Good authors' blogs or profiles are linked as well to keep following there writi
 - [linkName](url), Author: short description.
 ```
 ### Tech
+- [Lessons Learned in Software Development](https://henrikwarne.com/2015/04/16/lessons-learned-in-software-development/), Henrik Warne: Tips and Lessons for software developers.
 ---
 ### Life
 ---
