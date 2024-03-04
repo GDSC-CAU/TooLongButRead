@@ -1,0 +1,21 @@
+name: Push To Discord Channel on Pull Request Closed
+
+on:
+  pull_request:
+    types: [synchronize]
+
+jobs:
+  push-to-discord:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+
+      - name: Post Discord
+        uses: fjogeleit/http-request-action@v1.15.2
+        with:
+          url: $ {{ secret.GDSC_CAU_DISCORD_ARTICLES }}
+          method: 'POST'
+          data: '{ "embeds": [{ "author": { "name": "${{ github.event.pull_request.user.name }}" }, "title": "${{ github.event.pull_request.title }}", "description": "${{ github.event.pull_request.body }}", "color": "6393081" }] }'
+            
