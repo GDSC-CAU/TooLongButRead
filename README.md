@@ -19,6 +19,7 @@ Good authors' blogs or profiles are linked as well to keep following there writi
 - [Robert C. Martin](http://cleancoder.com/products): Super well-known guru for software engineering and agile manifesto.
 - [송요창](https://medium.com/@totuworld): Senior programmer in Woowa Bros.
 - [Netflix](https://medium.com/@netflixtechblog): Netflix Technology Blog.
+- [Kent C. Dodds](https://kentcdodds.com/blog): Educator, software engineer popular web developer.
 
 ## Articles
 ```markdown
