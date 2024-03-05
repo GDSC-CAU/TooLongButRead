@@ -16,6 +16,8 @@ Good authors' blogs or profiles are linked as well to keep following there writi
 - [authorName](url): short description.
 ```
 - [Martin Fowler](https://martinfowler.com/): Super well-known guru for software architecture.
+- [Robert C. Martin](http://cleancoder.com/products): Super well-known guru for software engineering and agile manifesto.
+
 ## Articles
 ```markdown
 - [linkName](url), Author: short description.
