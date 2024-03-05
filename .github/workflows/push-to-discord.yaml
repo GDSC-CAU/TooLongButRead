@@ -17,8 +17,11 @@ jobs:
         uses: actions/checkout@v4.1.1
 
       - name: Post Discord
+        shell: bash
+        env:
+          DISCORD_WEBHOOK: $ {{ secrets.GDSC_CAU_DISCORD_ARTICLES }}
         run: |
           curl -X POST \
             -H "Content-Type: application/json" \
             -d '{ "content": "New readings are updated!", "embeds": [{ "author": { "name": "${{ github.event.pull_request.user.login }}" }, "title": "${{ github.event.pull_request.title }}", "url": "https://github.com/${{ github.repository }}", "description": "${{ github.event.pull_request.body }}", "color": ${{ vars.DISCORD_EMBED_COLOR }} }]}' \
-            $ {{ secrets.GDSC_CAU_DISCORD_ARTICLES }}
+            "$DISCORD_WEBHOOK"
