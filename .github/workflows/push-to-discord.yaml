@@ -18,9 +18,8 @@ jobs:
 
       - name: Post Discord
         env:
-          EMBEDS: '{ "embeds": [{ "author": { "name": "${{ github.event.pull_request.user.name }}" }, "title": "${{ github.event.pull_request.title }}", "description": "${{ github.event.pull_request.body }}", "color": "${{ vars.DISCORD_EMBED_COLOR }}" }] }'
           DISCORD_WEBHOOK: $ {{ secrets.GDSC_CAU_DISCORD_ARTICLES }}
-          DISCORD_EMBEDS: $ {{ toJson(env.EMBEDS) }}
+          DISCORD_EMBEDS: '[{ "author": { "name": "${{ github.event.pull_request.user.login }}" }, "title": "${{ github.event.pull_request.title }}", "description": "${{ github.event.pull_request.body }}", "color": "${{ vars.DISCORD_EMBED_COLOR }}" }]'
         uses: Ilshidur/action-discord@0.3.2
         with:
           args: "New readings are updated!"
