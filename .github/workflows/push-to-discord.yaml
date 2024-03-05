@@ -19,7 +19,7 @@ jobs:
       - name: Post Discord
         shell: bash
         env:
-          DISCORD_WEBHOOK: $ {{ secrets.GDSC_CAU_DISCORD_ARTICLES }}
+          DISCORD_WEBHOOK: ${{ secrets.GDSC_CAU_DISCORD_ARTICLES }}
         run: |
           curl -X POST \
             -H "Content-Type: application/json" \
