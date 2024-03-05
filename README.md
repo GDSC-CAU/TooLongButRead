@@ -18,6 +18,7 @@ Good authors' blogs or profiles are linked as well to keep following there writi
 - [Martin Fowler](https://martinfowler.com/): Super well-known guru for software architecture.
 - [Robert C. Martin](http://cleancoder.com/products): Super well-known guru for software engineering and agile manifesto.
 - [송요창](https://medium.com/@totuworld): Senior programmer in Woowa Bros.
+- [Netflix](https://medium.com/@netflixtechblog): Netflix Technology Blog.
 
 ## Articles
 ```markdown
