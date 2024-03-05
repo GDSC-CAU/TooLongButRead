@@ -15,6 +15,7 @@ Good authors' blogs or profiles are linked as well to keep following there writi
 ```markdown
 - [authorName](url): short description.
 ```
+- [Martin Fowler](https://martinfowler.com/): Super well-known guru for software architecture.
 ## Articles
 ```markdown
 - [linkName](url), Author: short description.
