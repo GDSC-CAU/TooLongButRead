@@ -17,8 +17,10 @@ jobs:
         uses: actions/checkout@v4.1.1
 
       - name: Post Discord
-        uses: fjogeleit/http-request-action@v1.15.2
+        env:
+          EMBEDS: '{ "embeds": [{ "author": { "name": "${{ github.event.pull_request.user.name }}" }, "title": "${{ github.event.pull_request.title }}", "description": "${{ github.event.pull_request.body }}", "color": "${{ vars.DISCORD_EMBED_COLOR }}" }] }'
+          DISCORD_WEBHOOK: $ {{ secrets.GDSC_CAU_DISCORD_ARTICLES }}
+          DISCORD_EMBEDS: $ {{ toJson(env.EMBEDS) }}
+        uses: Ilshidur/action-discord@0.3.2
         with:
-          url: $ {{ secrets.GDSC_CAU_DISCORD_ARTICLES }}
-          method: "POST"
-          data: '{ "embeds": [{ "author": { "name": "${{ github.event.pull_request.user.name }}" }, "title": "${{ github.event.pull_request.title }}", "description": "${{ github.event.pull_request.body }}", "color": "6393081" }] }'
+          args: "New readings are updated!"
