@@ -3,6 +3,7 @@ Archive articles good to read regardless of categories. Articles are catetorized
 Good authors' blogs or profiles are linked as well to keep following there writings. Books are welcomed also.
 
 ## Table of Contents
+
 - [Authors](#authors)
 - [Articles](#articles)
   - [Tech](#tech)
@@ -10,11 +11,14 @@ Good authors' blogs or profiles are linked as well to keep following there writi
   - [Culture](#culture)
   - [Else](#else)
 - [Books](#books)
+- [Lectures](#lectures)
 
 ## Authors
+
 ```markdown
 - [authorName](url): short description.
 ```
+
 - [Martin Fowler](https://martinfowler.com/): Super well-known guru for software architecture.
 - [Robert C. Martin](http://cleancoder.com/products): Super well-known guru for software engineering and agile manifesto.
 - [송요창](https://medium.com/@totuworld): Senior programmer in Woowa Bros.
@@ -22,28 +26,54 @@ Good authors' blogs or profiles are linked as well to keep following there writi
 - [Kent C. Dodds](https://kentcdodds.com/blog): Educator, software engineer popular web developer.
 
 ## Articles
+
 ```markdown
 - [linkName](url), Author: short description.
 ```
+
 ### Tech
+
 #### Tips
+
 - [Lessons Learned in Software Development](https://henrikwarne.com/2015/04/16/lessons-learned-in-software-development/), Henrik Warne: Tips and Lessons for software developers.
+
 #### Automation
+
 - [Discord Webhooks Guide](https://birdie0.github.io/discord-webhooks-guide/), birdie0: Comprehensive guide for discord webhook.
+
 #### Security
+
 - [Public Key Infrastructure Overview](/static/pdfs/pki-overview.pdf), Sun mircosystems.
+
 ---
+
 ### Life
+
 ---
+
 ### Culture
+
 ---
+
 ### Else
+
 ---
 
 ## Books
+
 ```markdown
 - [linkName](url), Author: short description.
 ```
+
+## Lectures
+
+```markdown
+- [linkName](url), Instructors: Course Title.
+```
+
+- [Software Construction](https://ocw.mit.edu/ans7870/6/6.005/s16/), Prof. Robert Miller, Dr. Max Goldman
+
 ## How to contribute
+
 Please put the links of articles you've read with short description and author name.  
-And please make PR for that. Because it needs to be reviewed for minimum qualification.  
+And please make PR for that. Because it needs to be reviewed for minimum qualification.
