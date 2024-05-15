@@ -24,6 +24,7 @@ Good authors' blogs or profiles are linked as well to keep following there writi
 - [송요창](https://medium.com/@totuworld): Senior programmer in Woowa Bros.
 - [Netflix](https://medium.com/@netflixtechblog): Netflix Technology Blog.
 - [Kent C. Dodds](https://kentcdodds.com/blog): Educator, software engineer popular web developer.
+- [Guido van Rossum](https://www.blogger.com/profile/12821714508588242516): Father of Python.
 
 ## Articles
 
