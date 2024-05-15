@@ -16,7 +16,7 @@ Good authors' blogs or profiles are linked as well to keep following there writi
 ## Authors
 
 ```markdown
-- [authorName](url): short description.
+- [AuthorName](url): Short Description.
 ```
 
 - [Martin Fowler](https://martinfowler.com/): Super well-known guru for software architecture.
@@ -28,7 +28,7 @@ Good authors' blogs or profiles are linked as well to keep following there writi
 ## Articles
 
 ```markdown
-- [linkName](url), Author: short description.
+- [LinkName](url), Author: Short Description.
 ```
 
 ### Tech
@@ -62,13 +62,13 @@ Good authors' blogs or profiles are linked as well to keep following there writi
 ## Books
 
 ```markdown
-- [linkName](url), Author: short description.
+- [LinkName](url), Author: Short Description.
 ```
 
 ## Lectures
 
 ```markdown
-- [linkName](url), Instructors: Course Title.
+- [LinkName](url), Instructors: Course Title.
 ```
 
 - [Software Construction](https://ocw.mit.edu/ans7870/6/6.005/s16/), Prof. Robert Miller, Dr. Max Goldman
